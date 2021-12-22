@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Date.js"></script>
+</head>
+<body>
+<script>
+    let date = new Date(2, 12, 2021);
+    ngay = date.getDay();
+    thang = date.getMonth();
+    nam = date.getYear();
+    date.setDay(22);
+    date.setMonth(12);
+    date.setYear(2021)
+    ngay = date.getDay();
+    thang = date.getMonth();
+    nam = date.getYear();
+    alert(ngay + "/" + thang + "/" + nam);
+</script>
+</body>
+</html>
